@@ -1,0 +1,38 @@
+{
+  "name": "saas-chat-app",
+  "version": "1.0.0",
+  "description": "SaaS Chat Application with Stripe Subscriptions and Real-Time Messaging",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.3.0",
+    "jose": "^6.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.363.0",
+    "mongoose": "^8.3.0",
+    "next": "^14.2.0",
+    "pusher": "^5.3.3",
+    "pusher-js": "^8.5.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "socket.io": "^4.7.0",
+    "socket.io-client": "^4.7.0",
+    "sonner": "^1.4.0",
+    "stripe": "^14.21.0",
+    "tailwind-merge": "^2.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
